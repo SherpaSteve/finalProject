@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(243, 243, 243);
+  font-family: "Open Sans", sans-serif;
+}
+
+.heading {
+  background-color: white;
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  position: sticky;
+  top: 0px;
+}
+
+.commentSection {
+  background-color: rgb(232, 232, 232);
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+}
+
+.commentContainer {
+  width: 98%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: rgb(243, 243, 243);
+}
+
+.leaveComment {
+  background-color: white;
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  position: sticky;
+  bottom: 0px;
+  display: flex;
+}
+
+.displayName {
+  height: 25px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.comment {
+  height: 25px;
+  width: 80%;
+}
+
+.submit {
+  display: inline;
+  margin-left: 25px;
+  font-size: 20px;
+  color: lightblue;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.edit {
+  display: inline;
+  margin-left: 90%;
+}
+
+.edit:hover {
+  cursor: pointer;
+}
+
+.delete {
+  display: inline;
+  margin-left: 10px;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+.floater {
+  display: flex;
+}
+
+.update {
+  display: flex;
+  padding: 20px;
+}
+
+.submitUpdate {
+  display: inline;
+  margin-left: 25px;
+  font-size: 20px;
+  color: lightblue;
+}
+
+.submitUpdate:hover {
+  cursor: pointer;
+}
+
+.commentUpdate {
+  height: 25px;
+  width: 80%;
+}
+
+.commentInComment {
+  font-size: 25pt;
+}
